@@ -1,7 +1,7 @@
 var config = {}
 
 
-const connectionString = process.env.DATABASE_URL;
+const connectionString = 'mongodb+srv://vimotanya:PUbRiT32ThjjYgmW@gallery.dmqys79.mongodb.net/?retryWrites=true&w=majority';
 
 // Update to have your correct username and password
 config.mongoURI = {
