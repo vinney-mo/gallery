@@ -1,9 +1,12 @@
 var config = {}
 
+
+const connectionString = process.env.DATABASE_URL;
+
 // Update to have your correct username and password
 config.mongoURI = {
-    production: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom?retryWrites=true&w=majority',
-    development: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-dev?retryWrites=true&w=majority',
-    test: 'mongodb+srv://<USERNAME>:<PASSWORD>@gallery.wc344.mongodb.net/darkroom-test?retryWrites=true&w=majority',
+    production: connectionString,
+    development: connectionString,
+    test: connectionString,
 }
 module.exports = config;
