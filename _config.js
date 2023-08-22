@@ -1,7 +1,7 @@
 var config = {}
 
 
-const connectionString = 'mongodb+srv://vimotanya:PUbRiT32ThjjYgmW@gallery.dmqys79.mongodb.net/?retryWrites=true&w=majority';
+const connectionString = 'mongodb+srv://vimotanya:@gallery.dmqys79.mongodb.net/?retryWrites=true&w=majority';
 
 // Update to have your correct username and password
 config.mongoURI = {
